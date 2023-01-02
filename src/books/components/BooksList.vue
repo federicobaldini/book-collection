@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { ref, watch } from "vue";
+import type { Ref } from "vue";
 import BooksItem from "./BooksItem.vue";
 
 type Book = {
@@ -16,29 +18,35 @@ const props = defineProps<{
   filterText: string;
 }>();
 
+const filters: Ref<Array<string>> = ref(props.filterText.split(";"));
+
 const checkFilter = (book: Book): boolean => {
-  const filters: Array<string> = props.filterText.split(";");
   const searchString = `${book.name} Publisher: ${book.publisher} Subject: ${book.subject} ${book.description} ${book.ISBN}`;
+  let found: boolean = true;
 
   if (props.filterText !== "") {
-    filters.every((filter) => {
-      if (!searchString.toLowerCase().includes(filter.toLowerCase())) {
-        return false;
+    filters.value.forEach((filter) => {
+      if (!searchString.toLowerCase().includes(filter)) {
+        found = false;
       }
     });
   }
-  return true;
+  return found;
 };
+
+watch([(): string => props.filterText], ([newFilterText]): void => {
+  filters.value = newFilterText.toLowerCase().split(";");
+});
 </script>
 
 <template>
   <ul class="books-list">
     <template v-for="book in props.books">
       <BooksItem
-        v-if="checkFilter(book)"
+        v-if="filters ? checkFilter(book) : true"
         :key="book.id"
         v-bind="book"
-        :text-to-highlight="props.filterText.toLowerCase()"
+        :texts-to-highlight="filters"
       />
     </template>
   </ul>

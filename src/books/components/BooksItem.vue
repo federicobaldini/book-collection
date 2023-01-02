@@ -7,36 +7,46 @@ const props = defineProps<{
   subject: string;
   ISBN: string;
   imagePath: string;
-  textToHighlight: string;
+  textsToHighlight: Array<string>;
 }>();
 
 /**
  * Highlight the specified text adding a <mark></mark> tag.
  */
 const highlightText = (text: string): string => {
-  if (
-    text.length > 0 &&
-    props.textToHighlight &&
-    props.textToHighlight.length > 0
-  ) {
-    const markedText: string = text
-      .toLowerCase()
-      .split(props.textToHighlight)
-      .join(`<mark>${props.textToHighlight}</mark>`);
-    const splittedMarkedText: Array<string> = markedText.split("");
-    const splittedText: Array<string> = text.split("");
-    let offset: number = 0;
-    splittedText.forEach((character: string, index: number) => {
-      if (splittedMarkedText[index + offset] === "<") {
-        if (splittedMarkedText[index + offset + 1] === "m") {
-          offset += 6;
-        } else {
-          offset += 7;
+  let textMarked: string = text;
+
+  props.textsToHighlight.forEach((textToHighlight) => {
+    if (
+      text.length > 0 &&
+      textToHighlight &&
+      textToHighlight.length > 0 &&
+      !textMarked.includes("<mark>")
+    ) {
+      const markedText: string = textMarked
+        .toLowerCase()
+        .split(textToHighlight)
+        .join(`<mark>${textToHighlight}</mark>`);
+      const splittedMarkedText: Array<string> = markedText.split("");
+      const splittedText: Array<string> = text.split("");
+      let offset: number = 0;
+
+      splittedText.forEach((character: string, index: number) => {
+        if (splittedMarkedText[index + offset] === "<") {
+          if (splittedMarkedText[index + offset + 1] === "m") {
+            offset += 6;
+          } else {
+            offset += 7;
+          }
         }
-      }
-      splittedMarkedText[index + offset] = character;
-    });
-    return splittedMarkedText.join("");
+        splittedMarkedText[index + offset] = character;
+      });
+      textMarked = splittedMarkedText.join("");
+    }
+  });
+
+  if (textMarked !== text) {
+    return textMarked;
   }
   return text;
 };
@@ -50,13 +60,15 @@ const highlightText = (text: string): string => {
     <div class="books-item__info-container">
       <h1 class="books-item__title">
         <span
-          v-html="textToHighlight ? highlightText(props.name) : props.name"
+          v-html="
+            props.textsToHighlight ? highlightText(props.name) : props.name
+          "
         />
       </h1>
       <h2 class="books-item__publisher">
         <span
           v-html="
-            textToHighlight
+            props.textsToHighlight
               ? highlightText(`Publisher: ${props.publisher}`)
               : `Publisher: ${props.publisher}`
           "
@@ -65,7 +77,7 @@ const highlightText = (text: string): string => {
       <h3 class="books-item__subject">
         <span
           v-html="
-            textToHighlight
+            props.textsToHighlight
               ? highlightText(`Subject: ${props.subject}`)
               : `Subject: ${props.subject}`
           "
@@ -74,7 +86,7 @@ const highlightText = (text: string): string => {
       <p class="books-item__description">
         <span
           v-html="
-            textToHighlight
+            props.textsToHighlight
               ? highlightText(props.description)
               : props.description
           "
@@ -84,7 +96,9 @@ const highlightText = (text: string): string => {
         <span>ISBN-13: </span>
         <span class="books-item__ISBN">
           <span
-            v-html="textToHighlight ? highlightText(props.ISBN) : props.ISBN"
+            v-html="
+              props.textsToHighlight ? highlightText(props.ISBN) : props.ISBN
+            "
         /></span>
       </div>
     </div>
