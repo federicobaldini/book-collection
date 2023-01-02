@@ -123,6 +123,7 @@ const highlightText = (text: string): string => {
 }
 .books-item__title {
   font-size: 18px;
+  padding: 0 1rem 0 0;
 }
 .books-item__publisher {
   font-size: 16px;
@@ -136,12 +137,12 @@ const highlightText = (text: string): string => {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 20rem;
-  width: auto;
   margin: 0 2rem 0 0;
 }
 .books-item__image {
   padding: 1rem;
+  height: 20rem;
+  width: 15rem;
 }
 .books-item__info-container {
   height: 100%;
