@@ -67,7 +67,7 @@ const highlightText = (text: string): string => {
           v-html="
             textToHighlight ? highlightText(props.subject) : props.subject
           "
-        />}
+        />
       </h3>
       <p class="books-item__description">
         <span
