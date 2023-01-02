@@ -25,5 +25,14 @@
     "subject": "Math",
     "ISBN": "978-0486600901",
     "imagePath": "/book-collection/images/euclid_dover_vol_3.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Algoritmi, monaci e mercanti. Il calcolo nella vita quotidiana del Medioevo",
+    "description": "Di algoritmi si parla molto oggi con riferimento ai computer, a Google, alla profilazione degli utenti dei social e all'avvento dell'intelligenza artificiale. Ma la loro storia è molto più antica: la necessità di risolvere problemi matematici con opportune regole computazionali ha sempre accompagnato la vita dell'uomo",
+    "publisher": "Codice",
+    "subject": "History, Math",
+    "ISBN": "979-1254500330",
+    "imagePath": "/book-collection/images/algoritmi_monaci_mercanti.jpeg"
   }
 ]
