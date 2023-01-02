@@ -124,13 +124,16 @@ const highlightText = (text: string): string => {
 .books-item__title {
   font-size: 16px;
   margin: 0 0 0.2rem 0;
+  line-height: 20px;
 }
 .books-item__publisher {
   font-size: 14px;
+  line-height: 18px;
   margin: 0 0 0.2rem 0;
 }
 .books-item__subject {
   font-size: 12px;
+  line-height: 16px;
   margin: 0 0 0.8rem 0;
 }
 .books-item__image-container {
