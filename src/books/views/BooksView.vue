@@ -22,7 +22,7 @@ const onChangeFilterHandler = (inputText: string): void => {
 };
 
 onMounted(async () => {
-  const response = await fetch("/data/books.json");
+  const response = await fetch("/book-collection/data/books.json");
   const file = await response.json();
   books.value = file;
 });
