@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "The Thirteen Books of the Elements: 1",
+    "description": "This is the definitive edition of one of the very greatest classics of all time — the full Euclid, not an abridgement. Using the text established by Heiberg, Sir Thomas Heath encompasses almost 2,500 years of mathematical and historical study upon Euclid.",
+    "publisher": "Dover",
+    "subject": "Math",
+    "ISBN": "978-0486600888",
+    "imagePath": "/images/euclid_dover_vol_1.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "The Thirteen Books of the Elements: 2",
+    "description": "This is the definitive edition of one of the very greatest classics of all time — the full Euclid, not an abridgement. Using the text established by Heiberg, Sir Thomas Heath encompasses almost 2,500 years of mathematical and historical study upon Euclid.",
+    "publisher": "Dover",
+    "subject": "Math",
+    "ISBN": "978-0486600895",
+    "imagePath": "/images/euclid_dover_vol_2.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "The Thirteen Books of the Elements: 3",
+    "description": "This is the definitive edition of one of the very greatest classics of all time — the full Euclid, not an abridgement. Using the text established by Heiberg, Sir Thomas Heath encompasses almost 2,500 years of mathematical and historical study upon Euclid.",
+    "publisher": "Dover",
+    "subject": "Math",
+    "ISBN": "978-0486600901",
+    "imagePath": "/images/euclid_dover_vol_3.jpeg"
+  }
+]
