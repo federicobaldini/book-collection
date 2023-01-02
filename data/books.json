@@ -34,5 +34,14 @@
     "subject": "History, Math",
     "ISBN": "979-1254500330",
     "imagePath": "/book-collection/images/algoritmi_monaci_mercanti.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change",
+    "description": "Managing people is difficult wherever you work. But in the tech industry, where management is also a technical discipline, the learning curve can be brutal, especially when there are few tools, texts, and frameworks to help you.",
+    "publisher": "Oreilly",
+    "subject": "Management, Tech",
+    "ISBN": "978-1491973899",
+    "imagePath": "/book-collection/images/the_manager_path.jpeg"
   }
 ]
