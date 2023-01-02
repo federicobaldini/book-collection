@@ -54,6 +54,7 @@ watch([(): string => props.filterText], ([newFilterText]): void => {
 
 <style scoped>
 .books-list {
+  margin: 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
