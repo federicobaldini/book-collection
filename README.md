@@ -1,6 +1,6 @@
 # book-collection
 
-A web application that show my personal book collection, using Vue.
+A web application that shows my personal book collection, using Vue.
 
 ## Available Scripts
 
