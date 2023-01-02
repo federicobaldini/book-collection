@@ -69,5 +69,6 @@ watch([(): string => props.filterText], ([newFilterText]): void => {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
 }
 </style>

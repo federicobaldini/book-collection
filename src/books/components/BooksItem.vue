@@ -65,7 +65,7 @@ const highlightText = (text: string): string => {
           "
         />
       </h1>
-      <h2 class="books-item__publisher">
+      <h3 class="books-item__publisher">
         <span
           v-html="
             props.textsToHighlight
@@ -73,7 +73,7 @@ const highlightText = (text: string): string => {
               : `Publisher: ${props.publisher}`
           "
         />
-      </h2>
+      </h3>
       <h3 class="books-item__subject">
         <span
           v-html="
@@ -115,26 +115,23 @@ const highlightText = (text: string): string => {
   overflow: hidden;
   background: #3b3b3b;
   color: #bcbcbc;
-  min-height: 10rem;
-  width: 25rem;
+  width: 28rem;
+  min-height: 17rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  transition: 1s all;
 }
 .books-item__title {
   font-size: 16px;
-  margin: 0 0 0.2rem 0;
+  margin: 0 0 0.6rem 0;
   line-height: 20px;
 }
-.books-item__publisher {
-  font-size: 14px;
-  line-height: 18px;
-  margin: 0 0 0.2rem 0;
-}
+.books-item__publisher,
 .books-item__subject {
   font-size: 12px;
   line-height: 16px;
-  margin: 0 0 0.8rem 0;
+  margin: 0 0 0.2rem 0;
 }
 .books-item__image-container {
   display: flex;
@@ -149,7 +146,6 @@ const highlightText = (text: string): string => {
   border-radius: 20px;
 }
 .books-item__info-container {
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -158,7 +154,7 @@ const highlightText = (text: string): string => {
 .books-item__description {
   font-size: 10px;
   color: #a6acaf;
-  padding: 0 1rem 1rem 0;
+  padding: 0.6rem 1rem 1rem 0;
   margin: 0;
 }
 .books-item__button-container {
