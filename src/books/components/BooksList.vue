@@ -41,7 +41,17 @@ watch([(): string => props.filterText], ([newFilterText]): void => {
 
 <template>
   <ul class="books-list">
-    <template v-for="book in props.books">
+    <template
+      v-for="book in [...props.books].sort((a, b) => {
+        if (a.subject > b.subject) {
+          return 1;
+        }
+        if (b.subject > a.subject) {
+          return -1;
+        }
+        return 0;
+      })"
+    >
       <BooksItem
         v-if="filters ? checkFilter(book) : true"
         :key="book.id"
