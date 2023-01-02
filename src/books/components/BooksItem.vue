@@ -93,7 +93,7 @@ const highlightText = (text: string): string => {
         />
       </p>
       <div>
-        <span>ISBN-13: </span>
+        <span style="font-size: 12px">ISBN-13: </span>
         <span class="books-item__ISBN">
           <span
             v-html="
@@ -116,33 +116,34 @@ const highlightText = (text: string): string => {
   background: #3b3b3b;
   color: #bcbcbc;
   min-height: 10rem;
-  width: 40rem;
+  width: 25rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 .books-item__title {
-  font-size: 18px;
-  padding: 0 2rem 0 0;
+  font-size: 16px;
+  margin: 0 0 0.2rem 0;
 }
 .books-item__publisher {
-  font-size: 16px;
-  margin: 0 0 12px 0;
+  font-size: 14px;
+  margin: 0 0 0.2rem 0;
 }
 .books-item__subject {
-  font-size: 14px;
-  margin: 0;
+  font-size: 12px;
+  margin: 0 0 0.8rem 0;
 }
 .books-item__image-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 0 2rem 0 0;
+  margin: 0;
 }
 .books-item__image {
   padding: 1rem;
-  height: 20rem;
-  width: 15rem;
+  height: 13rem;
+  width: 9rem;
+  border-radius: 20px;
 }
 .books-item__info-container {
   height: 100%;
@@ -152,9 +153,10 @@ const highlightText = (text: string): string => {
   align-items: flex-start;
 }
 .books-item__description {
-  font-size: 12px;
+  font-size: 10px;
   color: #a6acaf;
   padding: 0 1rem 1rem 0;
+  margin: 0;
 }
 .books-item__button-container {
   width: 100%;
@@ -174,16 +176,15 @@ const highlightText = (text: string): string => {
   background: #58e958;
 }
 .books-item__ISBN {
+  font-size: 12px;
   color: #82e0aa;
 }
 
 @media (max-width: 600px) {
   .books-item {
     width: auto;
-    flex-direction: column;
   }
   .books-item__image-container {
-    min-height: 20rem;
     margin: 0;
   }
 }
