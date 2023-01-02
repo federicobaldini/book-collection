@@ -43,10 +43,10 @@ watch([(): string => props.filterText], ([newFilterText]): void => {
   <ul class="books-list">
     <template
       v-for="book in [...props.books].sort((a, b) => {
-        if (a.subject > b.subject) {
+        if (a.name > b.name) {
           return 1;
         }
-        if (b.subject > a.subject) {
+        if (b.name > a.name) {
           return -1;
         }
         return 0;
