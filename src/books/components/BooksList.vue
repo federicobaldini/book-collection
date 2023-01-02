@@ -17,8 +17,17 @@ const props = defineProps<{
 }>();
 
 const checkFilter = (book: Book): boolean => {
-  const searchString = `${book.name} ${book.publisher} ${book.subject} ${book.description} ${book.ISBN}`;
-  return searchString.toLowerCase().includes(props.filterText.toLowerCase());
+  const filters: Array<string> = props.filterText.split(";");
+  const searchString = `${book.name} Publisher: ${book.publisher} Subject: ${book.subject} ${book.description} ${book.ISBN}`;
+
+  if (props.filterText !== "") {
+    filters.every((filter) => {
+      if (!searchString.toLowerCase().includes(filter.toLowerCase())) {
+        return false;
+      }
+    });
+  }
+  return true;
 };
 </script>
 

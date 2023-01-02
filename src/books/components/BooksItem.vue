@@ -54,18 +54,20 @@ const highlightText = (text: string): string => {
         />
       </h1>
       <h2 class="books-item__publisher">
-        Publisher:
         <span
           v-html="
-            textToHighlight ? highlightText(props.publisher) : props.publisher
+            textToHighlight
+              ? highlightText(`Publisher: ${props.publisher}`)
+              : `Publisher: ${props.publisher}`
           "
         />
       </h2>
       <h3 class="books-item__subject">
-        Subject:
         <span
           v-html="
-            textToHighlight ? highlightText(props.subject) : props.subject
+            textToHighlight
+              ? highlightText(`Subject: ${props.subject}`)
+              : `Subject: ${props.subject}`
           "
         />
       </h3>
