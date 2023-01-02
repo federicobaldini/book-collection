@@ -6,7 +6,7 @@
     "publisher": "Dover",
     "subject": "Math",
     "ISBN": "978-0486600888",
-    "imagePath": "/images/euclid_dover_vol_1.jpeg"
+    "imagePath": "/book-collection/images/euclid_dover_vol_1.jpeg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "publisher": "Dover",
     "subject": "Math",
     "ISBN": "978-0486600895",
-    "imagePath": "/images/euclid_dover_vol_2.jpeg"
+    "imagePath": "/book-collection/images/euclid_dover_vol_2.jpeg"
   },
   {
     "id": 3,
@@ -24,6 +24,6 @@
     "publisher": "Dover",
     "subject": "Math",
     "ISBN": "978-0486600901",
-    "imagePath": "/images/euclid_dover_vol_3.jpeg"
+    "imagePath": "/book-collection/images/euclid_dover_vol_3.jpeg"
   }
 ]
