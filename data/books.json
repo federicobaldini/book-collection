@@ -3,7 +3,7 @@
     "id": 1,
     "name": "The Thirteen Books of the Elements: 1",
     "description": "This is the definitive edition of one of the very greatest classics of all time — the full Euclid, not an abridgement. Using the text established by Heiberg, Sir Thomas Heath encompasses almost 2,500 years of mathematical and historical study upon Euclid.",
-    "publisher": "Dover",
+    "publisher": "Dover Pubns",
     "subject": "Math",
     "ISBN": "978-0486600888",
     "imagePath": "/book-collection/images/euclid_dover_vol_1.jpeg"
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "The Thirteen Books of the Elements: 2",
     "description": "This is the definitive edition of one of the very greatest classics of all time — the full Euclid, not an abridgement. Using the text established by Heiberg, Sir Thomas Heath encompasses almost 2,500 years of mathematical and historical study upon Euclid.",
-    "publisher": "Dover",
+    "publisher": "Dover Pubns",
     "subject": "Math",
     "ISBN": "978-0486600895",
     "imagePath": "/book-collection/images/euclid_dover_vol_2.jpeg"
@@ -21,7 +21,7 @@
     "id": 3,
     "name": "The Thirteen Books of the Elements: 3",
     "description": "This is the definitive edition of one of the very greatest classics of all time — the full Euclid, not an abridgement. Using the text established by Heiberg, Sir Thomas Heath encompasses almost 2,500 years of mathematical and historical study upon Euclid.",
-    "publisher": "Dover",
+    "publisher": "Dover Pubns",
     "subject": "Math",
     "ISBN": "978-0486600901",
     "imagePath": "/book-collection/images/euclid_dover_vol_3.jpeg"
@@ -43,5 +43,203 @@
     "subject": "Management, Tech",
     "ISBN": "978-1491973899",
     "imagePath": "/book-collection/images/the_manager_path.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Progredire a scacchi. Con i più grandi giocatori della storia. 25 partite di culto",
+    "description": "25 partite che vi permetteranno di entrare nella mente dei più grandi campioni di tutti i tempi: scoprirete come ragionano, le domande che si pongono e soprattutto come rispondono agli attacchi!",
+    "publisher": "L'Ippocampo",
+    "subject": "Chess",
+    "ISBN": "978-8867227211",
+    "imagePath": "/book-collection/images/progredire_a_scacchi.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "La prova matematica dell'esistenza di Dio",
+    "description": "Gödel fornisce, in questo piccolo scritto, una dimostrazione logica dell'esistenza di Dio: impresa che oggi potrà anche sembrare anacronistica, ma che si situa nella scia di una tradizione millenaria",
+    "publisher": "Bollati Boringhieri",
+    "subject": "Math, Logic, Philosophy",
+    "ISBN": "978-8833916798",
+    "imagePath": "/book-collection/images/prova_esistenza_di_dio.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Tutta la matematica. Per capire i concetti e imparare i fondamentali dagli insiemi alle equazioni differenziali",
+    "description": "Tutte le spiegazioni necessarie per capire davvero Tutta la terminologia e i concetti chiave; Richiami storici che raccontano le tappe evolutive della disciplina.",
+    "publisher": "Vallardi A",
+    "subject": "Math",
+    "ISBN": "978-8855052689",
+    "imagePath": "/book-collection/images/tutta_la_matematica.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Tutta la fisica. Per capire i concetti e imparare i fondamentali dalla meccanica classica alla fisica quantistica",
+    "description": "Un volume per studiare, ripassare e consultare velocemente dati e nozioni. Qui troverete tutti gli argomenti, i concetti chiave, le formule, i grafici e le tabelle.",
+    "publisher": "Vallardi A",
+    "subject": "Physics",
+    "ISBN": "978-8855052696",
+    "imagePath": "/book-collection/images/tutta_la_fisica.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Simply Maths",
+    "description": "Combining bold, elegant graphics with easy-to-understand text, Simply Maths is the perfect introduction to the subject for those who are short of time but hungry for knowledge.",
+    "publisher": "DK",
+    "subject": "Math",
+    "ISBN": "978-0241515686",
+    "imagePath": "/book-collection/images/simply_math.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Simply Quantum Physics",
+    "description": "Bold graphics and easy-to-understand explanations make it the most accessible guide to quantum physics on the market.",
+    "publisher": "DK",
+    "subject": "Physics",
+    "ISBN": "978-0241471227",
+    "imagePath": "/book-collection/images/simply_quantum_physics.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "Rust for Rustaceans: Idiomatic Programming for Experienced Developers",
+    "description": "For developers who've mastered the basics, this book is the next step on your way to professional-level programming in Rust.",
+    "publisher": "No Starch Press",
+    "subject": "Programming, Rust",
+    "ISBN": "978-1718501850",
+    "imagePath": "/book-collection/images/rust_for_rustaceans.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "Code: The Hidden Language of Computer Hardware and Software",
+    "description": "This new expanded edition explores more deeply the bit-by-bit and gate-by-gate construction of the heart of every smart device, the central processing unit that combines the simplest of basic operations to perform the most complex of feats.",
+    "publisher": "Microsoft Pr",
+    "subject": "Programming, Microelectronics",
+    "ISBN": "978-0137909100",
+    "imagePath": "/book-collection/images/code.jpeg"
+  },
+  {
+    "id": 14,
+    "name": "Real Analysis: A Long-Form Mathematics Textbook",
+    "description": "This textbook is designed for students. Rather than the typical definition-theorem-proof-repeat style, this text includes much more commentary, motivation and explanation.",
+    "publisher": "Independently published",
+    "subject": "Math",
+    "ISBN": "978-1077254541",
+    "imagePath": "/book-collection/images/real_analysis.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Proofs: A Long-Form Mathematics Textbook",
+    "description": "This textbook is designed for students. Rather than the typical definition-theorem-proof-repeat style, this text includes much more commentary, motivation and explanation.",
+    "publisher": "Independently published",
+    "subject": "Math",
+    "ISBN": "979-8595265973",
+    "imagePath": "/book-collection/images/proofs.jpeg"
+  },
+  {
+    "id": 16,
+    "name": "Science: The Definitive Visual Guide",
+    "description": "From the humble beginnings of science, right through to today's information age - go on a journey through the history of science through its people, inventions, and discoveries.",
+    "publisher": "DK",
+    "subject": "History, Science",
+    "ISBN": "978-0241446331",
+    "imagePath": "/book-collection/images/science.jpeg"
+  },
+  {
+    "id": 17,
+    "name": "Fisica ed Ingegneria del Reattore Nucleare: Manuale teorico ed operativo per impianti nucleari di potenza",
+    "description": "Un libro unico per comprendere i principi e le modalità di funzionamento di un reattore e per diagnosticarne lo stato rilevando il suo comportamento nelle differenti condizioni operative.",
+    "publisher": "Independently published",
+    "subject": "Physics",
+    "ISBN": "979-8648599239",
+    "imagePath": "/book-collection/images/ingegneria_del_reattore_nucleare.jpeg"
+  },
+  {
+    "id": 18,
+    "name": "The Principia the Authoritative Translation: Mathematical Principles of Natural Philosophy",
+    "description": "n his monumental 1687 work, Philosophiae Naturalis Principia Mathematica, known familiarly as the Principia, Isaac Newton laid out in mathematical terms the principles of time, force, and motion that have guided the development of modern physical science.",
+    "publisher": "Univ of California Pr",
+    "subject": "Math, Physics",
+    "ISBN": "978-0520290747",
+    "imagePath": "/book-collection/images/the_principia.jpeg"
+  },
+  {
+    "id": 19,
+    "name": "Introduction to Space Dynamics",
+    "description": "Although this classic introduction to space-flight engineering was first published not long after Sputnik was launched, the fundamental principles it elucidates are as varied today as then.",
+    "publisher": "Dover Pubns",
+    "subject": "Physics",
+    "ISBN": "978-0486651132",
+    "imagePath": "/book-collection/images/space_dynamics.jpeg"
+  },
+  {
+    "id": 20,
+    "name": "Introduction to Quantum Mechanics: With Applications to Chemistry",
+    "description": "When this classic text was first published in 1935, it fulfilled the goal of its authors 'to produce a textbook of practical quantum mechanics for the chemist, the experimental physicist, and the beginning student of theoretical physics.'",
+    "publisher": "Dover Pubns",
+    "subject": "Physics, Chemistry",
+    "ISBN": "978-0486648712",
+    "imagePath": "/book-collection/images/quantum_mechanics_chemistry.jpeg"
+  },
+  {
+    "id": 21,
+    "name": "Mathematics: Its Content, Methods and Meaning : Three Volumes Bound As One",
+    "description": "This major survey of mathematics, featuring the work of 18 outstanding Russian mathematicians and including material on both elementary and advanced levels, encompasses 20 prime subject areas in mathematics in terms of their simple origins and their subsequent sophisticated developement.",
+    "publisher": "Dover Pubns",
+    "subject": "Math",
+    "ISBN": "978-0486409160",
+    "imagePath": "/book-collection/images/mathematics.jpeg"
+  },
+  {
+    "id": 22,
+    "name": "Quantum Theory",
+    "description": "This superb text by David Bohm, formerly Princeton University and Emeritus Professor of Theoretical Physics at Birkbeck College, University of London, provides a formulation of the quantum theory in terms of qualitative and imaginative concepts that have evolved outside and beyond classical theory.",
+    "publisher": "Dover Pubns",
+    "subject": "Physics",
+    "ISBN": "978-0486659695",
+    "imagePath": "/book-collection/images/quantum_theory.jpeg"
+  },
+  {
+    "id": 23,
+    "name": "Principles of Electrodynamics",
+    "description": "Unlike most textbooks on electromagnetic theory, which treat electricity, magnetism, Coulomb's law and Faraday's law as almost independent subjects within the framework of the theory, this well-written text takes a relativistic point of view in which electric and magnetic fields are really different aspects of the same physical quantity.",
+    "publisher": "Dover Pubns",
+    "subject": "Physics",
+    "ISBN": "978-0486654935",
+    "imagePath": "/book-collection/images/principles_of_electrodynamics.jpeg"
+  },
+  {
+    "id": 24,
+    "name": "Calculus: An Intuitive and Physical Approach",
+    "description": "Application-oriented introduction relates the subject as closely as possible to science. In-depth explorations of the derivative, the differentiation and integration of the powers of x, and theorems on differentiation and antidifferentiation, much more.",
+    "publisher": "Dover Pubns",
+    "subject": "Math, Physics",
+    "ISBN": "978-0486404530",
+    "imagePath": "/book-collection/images/calculus.jpeg"
+  },
+  {
+    "id": 25,
+    "name": "Essential Calculus: With Applications",
+    "description": "Calculus is an extremely powerful tool for solving a host of practical problems in fields as diverse as physics, biology, and economics, to mention just a few.",
+    "publisher": "Dover Pubns",
+    "subject": "Math, Science",
+    "ISBN": "978-0486660974",
+    "imagePath": "/book-collection/images/essential_calculus.jpeg"
+  },
+  {
+    "id": 26,
+    "name": "Number Theory",
+    "description": "Although mathematics majors are usually conversant with number theory by the time they have completed a course in abstract algebra, other undergraduates, especially those in education and the liberal arts, often need a more basic introduction to the topic.",
+    "publisher": "Dover Pubns",
+    "subject": "Math",
+    "ISBN": "978-0486682525",
+    "imagePath": "/book-collection/images/number_theory.jpeg"
+  },
+  {
+    "id": 27,
+    "name": "Linear Algebra",
+    "description": "In this volume in his exceptional series of translations of Russian mathematical texts, Richard Silverman has taken Shilov's course in linear algebra and has made it even more accessible and more useful for English language readers.",
+    "publisher": "Dover Pubns",
+    "subject": "Math",
+    "ISBN": "978-0486635187",
+    "imagePath": "/book-collection/images/linear_algebra.jpeg"
   }
 ]
