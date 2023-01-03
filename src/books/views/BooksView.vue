@@ -10,6 +10,7 @@ type Book = {
   description: string;
   publisher: string;
   subject: string;
+  author: string;
   ISBN: string;
   imagePath: string;
 };
@@ -23,8 +24,16 @@ const onChangeFilterHandler = (inputText: string): void => {
 
 onMounted(async () => {
   const response = await fetch("/book-collection/data/books.json");
-  const file = await response.json();
-  books.value = file;
+  const bookList: Array<Book> = await response.json();
+  books.value = bookList.sort((a, b) => {
+    if (a.name > b.name) {
+      return 1;
+    }
+    if (b.name > a.name) {
+      return -1;
+    }
+    return 0;
+  });
 });
 </script>
 

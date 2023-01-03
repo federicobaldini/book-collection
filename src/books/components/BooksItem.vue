@@ -5,6 +5,7 @@ const props = defineProps<{
   description: string;
   publisher: string;
   subject: string;
+  author: string;
   ISBN: string;
   imagePath: string;
   textsToHighlight: Array<string>;
@@ -83,6 +84,15 @@ const highlightText = (text: string): string => {
           "
         />
       </h3>
+      <h3 class="books-item__author">
+        <span
+          v-html="
+            props.textsToHighlight
+              ? highlightText(`Author: ${props.author}`)
+              : `Author: ${props.author}`
+          "
+        />
+      </h3>
       <p class="books-item__description">
         <span
           v-html="
@@ -110,13 +120,13 @@ const highlightText = (text: string): string => {
   position: relative;
   border: 2px solid #888888;
   border-radius: 10px;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
   overflow: hidden;
   background: #3b3b3b;
   color: #bcbcbc;
   width: 28rem;
-  min-height: 17rem;
+  min-height: 18.5rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -128,7 +138,8 @@ const highlightText = (text: string): string => {
   line-height: 20px;
 }
 .books-item__publisher,
-.books-item__subject {
+.books-item__subject,
+.books-item__author {
   font-size: 12px;
   line-height: 16px;
   margin: 0 0 0.2rem 0;
@@ -154,7 +165,7 @@ const highlightText = (text: string): string => {
 .books-item__description {
   font-size: 10px;
   color: #a6acaf;
-  padding: 0.6rem 1rem 1rem 0;
+  padding: 0.6rem 1rem 0.5rem 0;
   margin: 0;
 }
 .books-item__button-container {

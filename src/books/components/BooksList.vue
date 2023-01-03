@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, watch } from "vue";
+import { onMounted, ref, watch } from "vue";
 import type { Ref } from "vue";
 import BooksItem from "./BooksItem.vue";
 
@@ -9,6 +9,7 @@ type Book = {
   description: string;
   publisher: string;
   subject: string;
+  author: string;
   ISBN: string;
   imagePath: string;
 };
@@ -18,10 +19,11 @@ const props = defineProps<{
   filterText: string;
 }>();
 
+const filteredBooks: Ref<Array<Book>> = ref([]);
 const filters: Ref<Array<string>> = ref(props.filterText.split(";"));
 
 const checkFilter = (book: Book): boolean => {
-  const searchString = `${book.name} Publisher: ${book.publisher} Subject: ${book.subject} ${book.description} ${book.ISBN}`;
+  const searchString = `${book.name} Publisher: ${book.publisher} Subject: ${book.subject} Author: ${book.author} ${book.description} ${book.ISBN}`;
   let found: boolean = true;
 
   if (props.filterText !== "") {
@@ -36,34 +38,34 @@ const checkFilter = (book: Book): boolean => {
 
 watch([(): string => props.filterText], ([newFilterText]): void => {
   filters.value = newFilterText.toLowerCase().split(";");
+  if (newFilterText !== "") {
+    filteredBooks.value = [...props.books].filter((book) => checkFilter(book));
+  } else {
+    filteredBooks.value = props.books;
+  }
+});
+
+watch([(): Array<Book> => props.books], ([newBooks]): void => {
+  if (newBooks && newBooks.length > 0) {
+    filteredBooks.value = props.books;
+  }
 });
 </script>
 
 <template>
   <ul class="books-list">
-    <template
-      v-for="book in [...props.books].sort((a, b) => {
-        if (a.name > b.name) {
-          return 1;
-        }
-        if (b.name > a.name) {
-          return -1;
-        }
-        return 0;
-      })"
-    >
-      <BooksItem
-        v-if="filters ? checkFilter(book) : true"
-        :key="book.id"
-        v-bind="book"
-        :texts-to-highlight="filters"
-      />
-    </template>
+    <BooksItem
+      v-for="book in filteredBooks"
+      :key="book.id"
+      v-bind="book"
+      :texts-to-highlight="filters"
+    />
   </ul>
 </template>
 
 <style scoped>
 .books-list {
+  width: 100%;
   margin: 0;
   padding: 0;
   display: flex;
