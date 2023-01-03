@@ -5,6 +5,7 @@
     "description": "This is the definitive edition of one of the very greatest classics of all time — the full Euclid, not an abridgement. Using the text established by Heiberg, Sir Thomas Heath encompasses almost 2,500 years of mathematical and historical study upon Euclid.",
     "publisher": "Dover Pubns",
     "subject": "Math",
+    "author": "Euclid",
     "ISBN": "978-0486600888",
     "imagePath": "/book-collection/images/euclid_dover_vol_1.jpeg"
   },
@@ -14,6 +15,7 @@
     "description": "This is the definitive edition of one of the very greatest classics of all time — the full Euclid, not an abridgement. Using the text established by Heiberg, Sir Thomas Heath encompasses almost 2,500 years of mathematical and historical study upon Euclid.",
     "publisher": "Dover Pubns",
     "subject": "Math",
+    "author": "Euclid",
     "ISBN": "978-0486600895",
     "imagePath": "/book-collection/images/euclid_dover_vol_2.jpeg"
   },
@@ -23,6 +25,7 @@
     "description": "This is the definitive edition of one of the very greatest classics of all time — the full Euclid, not an abridgement. Using the text established by Heiberg, Sir Thomas Heath encompasses almost 2,500 years of mathematical and historical study upon Euclid.",
     "publisher": "Dover Pubns",
     "subject": "Math",
+    "author": "Euclid",
     "ISBN": "978-0486600901",
     "imagePath": "/book-collection/images/euclid_dover_vol_3.jpeg"
   },
@@ -32,6 +35,7 @@
     "description": "Di algoritmi si parla molto oggi con riferimento ai computer, a Google, alla profilazione degli utenti dei social e all'avvento dell'intelligenza artificiale.",
     "publisher": "Codice",
     "subject": "History, Math",
+    "author": "Giorgio Ausiello",
     "ISBN": "979-1254500330",
     "imagePath": "/book-collection/images/algoritmi_monaci_mercanti.jpeg"
   },
@@ -41,6 +45,7 @@
     "description": "Managing people is difficult wherever you work. But in the tech industry, where management is also a technical discipline, the learning curve can be brutal, especially when there are few tools, texts, and frameworks to help you.",
     "publisher": "Oreilly",
     "subject": "Management, Tech",
+    "author": "Camille Fournier",
     "ISBN": "978-1491973899",
     "imagePath": "/book-collection/images/the_manager_path.jpeg"
   },
@@ -50,6 +55,7 @@
     "description": "25 partite che vi permetteranno di entrare nella mente dei più grandi campioni di tutti i tempi: scoprirete come ragionano, le domande che si pongono e soprattutto come rispondono agli attacchi!",
     "publisher": "L'Ippocampo",
     "subject": "Chess",
+    "author": "Kévin Bordi, Samy Robin",
     "ISBN": "978-8867227211",
     "imagePath": "/book-collection/images/progredire_a_scacchi.jpeg"
   },
@@ -59,6 +65,7 @@
     "description": "Gödel fornisce, in questo piccolo scritto, una dimostrazione logica dell'esistenza di Dio: impresa che oggi potrà anche sembrare anacronistica, ma che si situa nella scia di una tradizione millenaria",
     "publisher": "Bollati Boringhieri",
     "subject": "Math, Logic, Philosophy",
+    "author": "Kurt Gödel",
     "ISBN": "978-8833916798",
     "imagePath": "/book-collection/images/prova_esistenza_di_dio.jpeg"
   },
@@ -68,6 +75,7 @@
     "description": "Tutte le spiegazioni necessarie per capire davvero Tutta la terminologia e i concetti chiave; Richiami storici che raccontano le tappe evolutive della disciplina.",
     "publisher": "Vallardi A",
     "subject": "Math",
+    "author": "Massimo Scorletti, Mario Italo Trioni",
     "ISBN": "978-8855052689",
     "imagePath": "/book-collection/images/tutta_la_matematica.jpeg"
   },
@@ -77,6 +85,7 @@
     "description": "Un volume per studiare, ripassare e consultare velocemente dati e nozioni. Qui troverete tutti gli argomenti, i concetti chiave, le formule, i grafici e le tabelle.",
     "publisher": "Vallardi A",
     "subject": "Physics",
+    "author": "Massimo Scorletti",
     "ISBN": "978-8855052696",
     "imagePath": "/book-collection/images/tutta_la_fisica.jpeg"
   },
@@ -86,6 +95,7 @@
     "description": "Combining bold, elegant graphics with easy-to-understand text, Simply Maths is the perfect introduction to the subject for those who are short of time but hungry for knowledge.",
     "publisher": "DK",
     "subject": "Math",
+    "author": "DK",
     "ISBN": "978-0241515686",
     "imagePath": "/book-collection/images/simply_math.jpeg"
   },
@@ -95,6 +105,7 @@
     "description": "Bold graphics and easy-to-understand explanations make it the most accessible guide to quantum physics on the market.",
     "publisher": "DK",
     "subject": "Physics",
+    "author": "DK",
     "ISBN": "978-0241471227",
     "imagePath": "/book-collection/images/simply_quantum_physics.jpeg"
   },
@@ -104,6 +115,7 @@
     "description": "For developers who've mastered the basics, this book is the next step on your way to professional-level programming in Rust.",
     "publisher": "No Starch Press",
     "subject": "Programming, Rust",
+    "author": "Steve Klabnik, Carol Nichols",
     "ISBN": "978-1718501850",
     "imagePath": "/book-collection/images/rust_for_rustaceans.jpeg"
   },
@@ -113,6 +125,7 @@
     "description": "This new expanded edition explores more deeply the bit-by-bit and gate-by-gate construction of the heart of every smart device, the central processing unit that combines the simplest of basic operations to perform the most complex of feats.",
     "publisher": "Microsoft Pr",
     "subject": "Programming, Microelectronics",
+    "author": "Charles Petzold",
     "ISBN": "978-0137909100",
     "imagePath": "/book-collection/images/code.jpeg"
   },
@@ -122,6 +135,7 @@
     "description": "This textbook is designed for students. Rather than the typical definition-theorem-proof-repeat style, this text includes much more commentary, motivation and explanation.",
     "publisher": "Independently published",
     "subject": "Math",
+    "author": "Jay Cummings",
     "ISBN": "978-1077254541",
     "imagePath": "/book-collection/images/real_analysis.jpeg"
   },
@@ -131,6 +145,7 @@
     "description": "This textbook is designed for students. Rather than the typical definition-theorem-proof-repeat style, this text includes much more commentary, motivation and explanation.",
     "publisher": "Independently published",
     "subject": "Math",
+    "author": "Jay Cummings",
     "ISBN": "979-8595265973",
     "imagePath": "/book-collection/images/proofs.jpeg"
   },
@@ -140,6 +155,7 @@
     "description": "From the humble beginnings of science, right through to today's information age - go on a journey through the history of science through its people, inventions, and discoveries.",
     "publisher": "DK",
     "subject": "History, Science",
+    "author": "DK, Adam Hart-Davis",
     "ISBN": "978-0241446331",
     "imagePath": "/book-collection/images/science.jpeg"
   },
@@ -149,6 +165,7 @@
     "description": "Un libro unico per comprendere i principi e le modalità di funzionamento di un reattore e per diagnosticarne lo stato rilevando il suo comportamento nelle differenti condizioni operative.",
     "publisher": "Independently published",
     "subject": "Physics",
+    "author": "Prof GianCarlo Casarelli, Dr Stefano B Casarelli",
     "ISBN": "979-8648599239",
     "imagePath": "/book-collection/images/ingegneria_del_reattore_nucleare.jpeg"
   },
@@ -158,6 +175,7 @@
     "description": "n his monumental 1687 work, Philosophiae Naturalis Principia Mathematica, known familiarly as the Principia, Isaac Newton laid out in mathematical terms the principles of time, force, and motion that have guided the development of modern physical science.",
     "publisher": "Univ of California Pr",
     "subject": "Math, Physics",
+    "author": "Isaac Newton",
     "ISBN": "978-0520290747",
     "imagePath": "/book-collection/images/the_principia.jpeg"
   },
@@ -167,6 +185,7 @@
     "description": "Although this classic introduction to space-flight engineering was first published not long after Sputnik was launched, the fundamental principles it elucidates are as varied today as then.",
     "publisher": "Dover Pubns",
     "subject": "Physics",
+    "author": "William Tyrrell Thomson",
     "ISBN": "978-0486651132",
     "imagePath": "/book-collection/images/space_dynamics.jpeg"
   },
@@ -176,6 +195,7 @@
     "description": "When this classic text was first published in 1935, it fulfilled the goal of its authors 'to produce a textbook of practical quantum mechanics for the chemist, the experimental physicist, and the beginning student of theoretical physics.'",
     "publisher": "Dover Pubns",
     "subject": "Physics, Chemistry",
+    "author": "Linus Pauling",
     "ISBN": "978-0486648712",
     "imagePath": "/book-collection/images/quantum_mechanics_chemistry.jpeg"
   },
@@ -185,6 +205,7 @@
     "description": "This major survey of mathematics, featuring the work of 18 outstanding Russian mathematicians and including material on both elementary and advanced levels, encompasses 20 prime subject areas in mathematics in terms of their simple origins and their subsequent sophisticated developement.",
     "publisher": "Dover Pubns",
     "subject": "Math",
+    "author": "A. D. Aleksandrov, A. N. Kolmogorov, M. A. Lavrent'ev ",
     "ISBN": "978-0486409160",
     "imagePath": "/book-collection/images/mathematics.jpeg"
   },
@@ -194,6 +215,7 @@
     "description": "This superb text by David Bohm, formerly Princeton University and Emeritus Professor of Theoretical Physics at Birkbeck College, University of London, provides a formulation of the quantum theory in terms of qualitative and imaginative concepts that have evolved outside and beyond classical theory.",
     "publisher": "Dover Pubns",
     "subject": "Physics",
+    "author": "David Bohm",
     "ISBN": "978-0486659695",
     "imagePath": "/book-collection/images/quantum_theory.jpeg"
   },
@@ -203,6 +225,7 @@
     "description": "Unlike most textbooks on electromagnetic theory, which treat electricity, magnetism, Coulomb's law and Faraday's law as almost independent subjects within the framework of the theory, this well-written text takes a relativistic point of view in which electric and magnetic fields are really different aspects of the same physical quantity.",
     "publisher": "Dover Pubns",
     "subject": "Physics",
+    "author": "Melvin Schwartz",
     "ISBN": "978-0486654935",
     "imagePath": "/book-collection/images/principles_of_electrodynamics.jpeg"
   },
@@ -212,6 +235,7 @@
     "description": "Application-oriented introduction relates the subject as closely as possible to science. In-depth explorations of the derivative, the differentiation and integration of the powers of x, and theorems on differentiation and antidifferentiation, much more.",
     "publisher": "Dover Pubns",
     "subject": "Math, Physics",
+    "author": "Morris Kline",
     "ISBN": "978-0486404530",
     "imagePath": "/book-collection/images/calculus.jpeg"
   },
@@ -221,6 +245,7 @@
     "description": "Calculus is an extremely powerful tool for solving a host of practical problems in fields as diverse as physics, biology, and economics, to mention just a few.",
     "publisher": "Dover Pubns",
     "subject": "Math, Science",
+    "author": "Richard A. Silverman",
     "ISBN": "978-0486660974",
     "imagePath": "/book-collection/images/essential_calculus.jpeg"
   },
@@ -230,6 +255,7 @@
     "description": "Although mathematics majors are usually conversant with number theory by the time they have completed a course in abstract algebra, other undergraduates, especially those in education and the liberal arts, often need a more basic introduction to the topic.",
     "publisher": "Dover Pubns",
     "subject": "Math",
+    "author": "George E. Andrews",
     "ISBN": "978-0486682525",
     "imagePath": "/book-collection/images/number_theory.jpeg"
   },
@@ -239,7 +265,218 @@
     "description": "In this volume in his exceptional series of translations of Russian mathematical texts, Richard Silverman has taken Shilov's course in linear algebra and has made it even more accessible and more useful for English language readers.",
     "publisher": "Dover Pubns",
     "subject": "Math",
+    "author": "Georgi E. Shilov",
     "ISBN": "978-0486635187",
     "imagePath": "/book-collection/images/linear_algebra.jpeg"
+  },
+  {
+    "id": 28,
+    "name": "Hacking: The Art of Exploitation",
+    "description": "Hacking is the art of creative problem solving, whether that means finding an unconventional solution to a difficult problem or exploiting holes in sloppy programming. Many people call themselves hackers, but few have the strong technical foundation needed to really push the envelope.",
+    "publisher": "No Starch Press",
+    "subject": "Programming, Hacking",
+    "author": "Jon Erickson ",
+    "ISBN": "978-1593271442",
+    "imagePath": "/book-collection/images/hacking.jpeg"
+  },
+  {
+    "id": 29,
+    "name": "Basic Electronics",
+    "description": "Originally prepared for Naval training courses and so thoroughly revised in 1972 as to be an essentially new book, this introduction covers the important aspects of applied electronics and electronic communication.",
+    "publisher": "Dover Pubns",
+    "subject": "Electronics",
+    "author": "U.S. Bureau of Naval Personnel",
+    "ISBN": "978-0486210766",
+    "imagePath": "/book-collection/images/basic_electronics.jpeg"
+  },
+  {
+    "id": 30,
+    "name": "Mechanics",
+    "description": "First published over 40 years ago, this work has achieved the status of a classic among introductory texts on mechanics. Den Hartog is known for his lively, discursive and often witty presentations of all the fundamental material of both statics and dynamics.",
+    "publisher": "Dover Pubns",
+    "subject": "Physics",
+    "author": "J. P. Den Hartog",
+    "ISBN": "978-0486607542",
+    "imagePath": "/book-collection/images/mechanics.jpeg"
+  },
+  {
+    "id": 31,
+    "name": "Basic Electricity",
+    "description": "This expanded and revised U.S. Navy training course text provides thorough coverage of the basic theory of electricity and its applications. It is unquestionably the best book of its kind for either broad or more limited studies of electrical fundamentals.",
+    "publisher": "Dover Pubns",
+    "subject": "Physics",
+    "author": "United States Navy",
+    "ISBN": "978-0486209739",
+    "imagePath": "/book-collection/images/basic_electricity.jpeg"
+  },
+  {
+    "id": 32,
+    "name": "Basic Machines and How They Work",
+    "description": "This revised edition of an extremely clear Navy training manual leaves nothing to be desired in its presentation. Thorough in its coverage of basic theory, from the lever and inclined plane to internal combustion engines and power trains, it requires nothing more than an understanding of the most elementary mathematics.",
+    "publisher": "Dover Pubns",
+    "subject": "Engineering",
+    "author": "United States Bureau of Naval Personnel ",
+    "ISBN": "978-0486217093",
+    "imagePath": "/book-collection/images/basic_machines.jpeg"
+  },
+  {
+    "id": 33,
+    "name": "Javascript: The Definitive Guide: Master the World's Most-used Programming Language",
+    "description": "JavaScript is the programming language of the web and is used by more software developers today than any other programming language. For nearly 25 years this best seller has been the go-to guide for JavaScript programmers.",
+    "publisher": "Oreilly",
+    "subject": "Programming, JavaScript",
+    "author": "David Flanagan",
+    "ISBN": "978-1491952023",
+    "imagePath": "/book-collection/images/javascript_definitive_guide.jpeg"
+  },
+  {
+    "id": 34,
+    "name": "Programming TypeScript: Making Your JavaScript Applications Scale",
+    "description": "Any programmer working with a dynamically typed language will tell you how hard it is to scale to more lines of code and more engineers. That's why Facebook, Google, and Microsoft invented gradual static type layers for their dynamically typed JavaScript and Python code.",
+    "publisher": "Oreilly",
+    "subject": "Programming, TypeScript",
+    "author": "Boris Cherny",
+    "ISBN": "978-1492037651",
+    "imagePath": "/book-collection/images/programming_typescript.jpeg"
+  },
+  {
+    "id": 35,
+    "name": "Il piacere di scoprire",
+    "description": "Il libro raccoglie saggi di diverso argomento: dalla sociologia della scienza alla struttura dei calcolatori, dalla pedagogia al rapporto tra scienze e religione.",
+    "publisher": "Adelphi",
+    "subject": "Narrative, Physics",
+    "author": "Richard P. Feynman",
+    "ISBN": "978-8845917226",
+    "imagePath": "/book-collection/images/il_piacere_di_scoprire.jpeg"
+  },
+  {
+    "id": 36,
+    "name": "WebAssembly: The Definitive Guide: Safe, Fast, and Portable Code",
+    "description": "WebAssembly: The Definitive Guide is a thorough and accessible introduction to one of the most transformative technologies hitting our industry. What started as a way to use languages other than JavaScript in the browser has evolved into a comprehensive path toward portability, performance, increased security, and greater code reuse across an impressive collection of deployment targets.",
+    "publisher": "Oreilly",
+    "subject": "Programming, C, JavaScript",
+    "author": "Brian Sletten",
+    "ISBN": "978-1492089841",
+    "imagePath": "/book-collection/images/webassembly_definitive_guide.jpeg"
+  },
+  {
+    "id": 37,
+    "name": "Il lampo dell'elettrone. Le scoperte e la storia di un corpuscolo che ha cambiato la nostra vita",
+    "description": "Per centinaia di anni la certezza è stata che l'atomo, indivisibile, rappresentasse il frammento elementare costitutivo della materia. Poi, il 30 aprile 1897, grazie a un semplice ma potente esperimento un ingegnoso scienziato inglese affermò che esisteva un corpuscolo, 1.700 volte più piccolo dell'atomo di idrogeno, responsabile della propagazione dei segnali elettrici.",
+    "publisher": "Codice",
+    "subject": "History, Physics, Microelectronics",
+    "author": "Vittorio Pellegrini",
+    "ISBN": "978-8875789350",
+    "imagePath": "/book-collection/images/il_lampo_dell_elettrone.jpeg"
+  },
+  {
+    "id": 38,
+    "name": "Silicio. Dall'invenzione del microprocessore alla nuova scienza della consapevolezza",
+    "description": "Federico Faggin è lo Steve Jobs italiano, un idolo, un eroe, per tutti gli scienziati e appassionati di tecnologia. Nato a Vicenza e poi trasferitosi nella Silicon Valley, con le sue invenzioni, dal microprocessore al touchscreen, ha contribuito a plasmare il presente che tutti conosciamo.",
+    "publisher": "Mondadori",
+    "subject": "Biography, History, Physics, Microelectronics",
+    "author": "Federico Faggin",
+    "ISBN": "978-8804725640",
+    "imagePath": "/book-collection/images/silicio.jpeg"
+  },
+  {
+    "id": 39,
+    "name": "Digital Design and Computer Architecture: ARM Edition",
+    "description": "Digital Design and Computer Architecture: ARM Edition covers the fundamentals of digital logic design and reinforces logic concepts through the design of an ARM microprocessor.",
+    "publisher": "Morgan Kaufmann",
+    "subject": "Microelectronics, Digital design",
+    "author": "Sarah Harris, David Harris",
+    "ISBN": "978-0128000564",
+    "imagePath": "/book-collection/images/digital_design_computer_architecture_arm.jpeg"
+  },
+  {
+    "id": 40,
+    "name": "Steve Jobs",
+    "description": "Più di quaranta colloqui personali con Steve Jobs in oltre due anni, e più di cento interviste a familiari, amici, rivali e colleghi, hanno permesso a Walter Isaacson di raccontare l'avvincente storia del geniale imprenditore la cui passione per la perfezione e il cui carisma feroce hanno rivoluzionato sei settori dell'economia e del business: computer, cinema d'animazione, musica, telefonia, tablet, editoria elettronica.",
+    "publisher": "Mondadori",
+    "subject": "Biography",
+    "author": "Walter Isaacson",
+    "ISBN": "978-8804680246",
+    "imagePath": "/book-collection/images/steve_jobs.jpeg"
+  },
+  {
+    "id": 41,
+    "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "description": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way.",
+    "publisher": "Prentice Hall",
+    "subject": "Programming",
+    "author": "Robert C. Martin ",
+    "ISBN": "978-0132350884",
+    "imagePath": "/book-collection/images/clean_code.jpeg"
+  },
+  {
+    "id": 42,
+    "name": "The Hobbit Facsimile First Edition: The Classic Bestselling Fantasy Novel",
+    "description": "The Hobbit was published on 21 September 1937, with a print run of 1,500 copies. With a beautiful cover design, nearly a dozen black & white illustrations and two black & red maps by the author himself, the book proved to be popular and was reprinted shortly afterwards. History was already being made.",
+    "publisher": "Harper UK",
+    "subject": "Fantasy",
+    "author": "J. R. R. Tolkien ",
+    "ISBN": "978-0007440832",
+    "imagePath": "/book-collection/images/the_hobbit_first_edition.jpeg"
+  },
+  {
+    "id": 43,
+    "name": "The Rust Programming Language (Covers Rust 2018)",
+    "description": "The Rust Programming Language is the official book on Rust: an open source systems programming language that helps you write faster, more reliable software. Rust offers control over low-level details (such as memory usage) in combination with high-level ergonomics, eliminating the hassle traditionally associated with low-level languages.",
+    "publisher": "No Starch Press",
+    "subject": "Programming, Rust",
+    "author": "Steve Klabnik, Carol Nichols",
+    "ISBN": "978-1718500440",
+    "imagePath": "/book-collection/images/programming_rust_2018.jpeg"
+  },
+  {
+    "id": 44,
+    "name": "Spring Boot: Up and Running: Building Cloud Native Java and Kotlin Applications",
+    "description": "Mark Heckler from VMware, the company behind Spring, guides you through Spring Boot's architecture and approach, covering topics such as debugging, testing, and deployment.",
+    "publisher": "Oreilly",
+    "subject": "Programming, Spring, Java",
+    "author": "Mark Heckler",
+    "ISBN": "978-1492076988",
+    "imagePath": "/book-collection/images/spring_boot_up_and_running.jpeg"
+  },
+  {
+    "id": 45,
+    "name": "Web Development With Node and Express: Leveraging the Javascript Stack",
+    "description": "Build dynamic web applications with Express, a key component of the Node/JavaScript development stack. In this updated edition, author Ethan Brown teaches you Express fundamentals by walking you through the development of an example application.",
+    "publisher": "Oreilly",
+    "subject": "Programming, Node, Express",
+    "author": "Ethan Brown",
+    "ISBN": "978-1492053514",
+    "imagePath": "/book-collection/images/web_development_node_express.jpeg"
+  },
+  {
+    "id": 46,
+    "name": "Learning React: Modern Patterns for Developing React Apps ",
+    "description": "If you want to learn how to build efficient React applications, this is your book. Ideal for web developers and software engineers who understand how JavaScript, CSS, and HTML work in the browser, this updated edition provides best practices and patterns for writing modern React code.",
+    "publisher": "Oreilly",
+    "subject": "Programming, JavaScript, React",
+    "author": "Alex Banks, Eve Porcello",
+    "ISBN": "978-1492051725",
+    "imagePath": "/book-collection/images/learning_react.jpeg"
+  },
+  {
+    "id": 47,
+    "name": "Unity Game Development Cookbook: Essentials for Every Game",
+    "description": "Discover how to use the Unity game engine to its full potential for both 3D and 2D game development; from the basics of scripting to useful tricks in gameplay, behavior, and animation.",
+    "publisher": "Oreilly",
+    "subject": "Programming, Unity, C#",
+    "author": "Paris Buttfield-addison, Jon Manning, Tim Nugent",
+    "ISBN": "978-1491999158",
+    "imagePath": "/book-collection/images/unity_cookbook.jpeg"
+  },
+  {
+    "id": 48,
+    "name": "Paradiso perduto",
+    "description": "Poema che si propone la «giustificazione all'uomo delle azioni del Signore», Paradiso perduto usa la forma drammatica per dimostrare che Adamo ed Eva furono puniti perché peccarono, scegliendo deliberatamente il Male. Uniti nella colpa e nell'implacabile sentenza divina, furono cacciati dall'Eden sulla terra: un luogo ignoto nel quale sono destinati a vivere nell'infelicità.",
+    "publisher": "Mondadori",
+    "subject": "Classic, Poem",
+    "author": "John Milton",
+    "ISBN": "978-8804671961",
+    "imagePath": "/book-collection/images/paradiso_perduto.jpeg"
   }
 ]
