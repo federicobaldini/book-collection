@@ -126,7 +126,7 @@ const highlightText = (text: string): string => {
   background: #3b3b3b;
   color: #bcbcbc;
   width: 28rem;
-  min-height: 18.5rem;
+  min-height: 16rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
