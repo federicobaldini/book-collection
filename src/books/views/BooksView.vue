@@ -39,14 +39,21 @@ onMounted(async () => {
 
 <template>
   <div class="books">
-    <SearchBar @onChangeInputText="onChangeFilterHandler" />
+    <SearchBar
+      class="books__searchbar"
+      @onChangeInputText="onChangeFilterHandler"
+    />
     <!--
     <p class="books__searchbar-guide">
       For multiple search separate the words with ";"<br />
       Example: search by publisher and subject: "dover;math"
     </p>
     -->
-    <BooksList :books="books" :filterText="filterText" />
+    <BooksList
+      class="books__books-list"
+      :books="books"
+      :filterText="filterText"
+    />
   </div>
 </template>
 
@@ -57,6 +64,12 @@ onMounted(async () => {
   align-items: center;
   flex-direction: column;
 }
+.books__searchbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
 .books__searchbar-guide {
   font-size: 14px;
   text-align: center;
@@ -66,5 +79,8 @@ onMounted(async () => {
   border: 2px solid #888888;
   border-radius: 10px;
   margin: 0 1rem;
+}
+.books__books-list {
+  margin: 7.5rem 0 0 0;
 }
 </style>
