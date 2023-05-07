@@ -951,7 +951,7 @@
   },
   {
     "id": 96,
-    "name": "Sette brevi lezioni di fisica",
+    "name": "Atomi nuclei particelle",
     "description": "This book is a collection of Enrico Fermi's writings from 1923 to 1952 on atomic nuclei and particles.",
     "publisher": "Bollati Boringhieri",
     "subject": "Physics",
@@ -961,7 +961,7 @@
   },
   {
     "id": 97,
-    "name": "Atomi nuclei particelle",
+    "name": "Sette brevi lezioni di fisica",
     "description": "Seven brief lessons on physics covers fundamental concepts in a clear and concise manner, making it accessible for non-experts.",
     "publisher": "Adelphi",
     "subject": "Physics",
@@ -1074,14 +1074,14 @@
     "name": "Tutto l'universo per chi ha poco spazio-tempo",
     "description": "The book explores the wonders of the universe through the lens of those with limited space and time.",
     "publisher": "Mondadori",
-    "subject": "Fable",
+    "subject": "Astrophysics",
     "author": "Sandra Savaglio",
     "ISBN": "978-8804739548",
-    "imagePath": "/book-collection/images/tutto_universo.jpeg"
+    "imagePath": "/book-collection/images/tutto_universo_per_chi_ha_poco_spazio_tempo.jpeg"
   },
   {
     "id": 109,
-    "name": "Tutto l'universo per chi ha poco spazio-tempo",
+    "name": "Storia della matematica",
     "description": "The book provides a comprehensive history of mathematics, covering key developments and influential figures from ancient times to the modern era.",
     "publisher": "Mondadori",
     "subject": "History, Math",
