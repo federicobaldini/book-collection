@@ -1117,7 +1117,7 @@
     "subject": "Science fiction",
     "author": "Philip K. Dick",
     "ISBN": "978-8804731481",
-    "imagePath": "/book-collection/images/ubik.jpg"
+    "imagePath": "/book-collection/images/ubik.jpeg"
   },
   {
     "id": 113,
@@ -1127,7 +1127,7 @@
     "subject": "Physics",
     "author": "P. Mazzoldi, M. Nigro, C. Voci",
     "ISBN": "978-8836230303",
-    "imagePath": "/book-collection/images/fisica_elettromagnetismo_e_onde.jpg"
+    "imagePath": "/book-collection/images/fisica_elettromagnetismo_e_onde.jpeg"
   },
   {
     "id": 114,
@@ -1137,6 +1137,6 @@
     "subject": "Physics",
     "author": "P. Mazzoldi, M. Nigro, C. Voci",
     "ISBN": "978-8804731481",
-    "imagePath": "/book-collection/images/fisica_meccanica_e_termodinamica.jpg"
+    "imagePath": "/book-collection/images/fisica_meccanica_e_termodinamica.jpeg"
   }
 ]
