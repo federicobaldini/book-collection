@@ -491,7 +491,7 @@
   },
   {
     "id": 50,
-    "name": "History of Greek Mathematics",
+    "name": "History of Greek Mathematics. Vol 1",
     "description": "This book covers the development of mathematics in ancient Greece, including the contributions of notable figures such as Pythagoras, Euclid, and Archimedes. It also explores the lasting impact of Greek mathematics on modern science and culture.",
     "publisher": "Dover",
     "subject": "Math, Science",
@@ -952,11 +952,191 @@
   {
     "id": 96,
     "name": "Sette brevi lezioni di fisica",
+    "description": "This book is a collection of Enrico Fermi's writings from 1923 to 1952 on atomic nuclei and particles.",
+    "publisher": "Bollati Boringhieri",
+    "subject": "Physics",
+    "author": "Enrico Fermi",
+    "ISBN": "978-8833920108",
+    "imagePath": "/book-collection/images/atomi_nuclei_particelle.jpeg"
+  },
+  {
+    "id": 97,
+    "name": "Atomi nuclei particelle",
     "description": "Seven brief lessons on physics covers fundamental concepts in a clear and concise manner, making it accessible for non-experts.",
     "publisher": "Adelphi",
     "subject": "Physics",
     "author": "Carlo Rovelli",
     "ISBN": "978-8845929250",
     "imagePath": "/book-collection/images/sette_brevi_lezioni_di_fisica.jpeg"
+  },
+  {
+    "id": 98,
+    "name": "Gli androidi sognano pecore elettriche?",
+    "description": "A bounty hunter hunts rogue androids while grappling with questions of humanity and empathy in a dystopian future.",
+    "publisher": "Mondadori",
+    "subject": "Science fiction",
+    "author": "Philip K. Dick",
+    "ISBN": "978-8804731474",
+    "imagePath": "/book-collection/images/gli_androidi_sognano_pecore_elettriche.jpg"
+  },
+  {
+    "id": 99,
+    "name": "Introductory Complex Analysis",
+    "description": "The book provides an introduction to complex analysis, covering basic principles, functions, and applications in concise language.",
+    "publisher": "Dover",
+    "subject": "Math",
+    "author": "Richard A. Silverman",
+    "ISBN": "978-0486646862",
+    "imagePath": "/book-collection/images/introductory_complex_analysis.jpeg"
+  },
+  {
+    "id": 100,
+    "name": "Discorsi e dimostrazioni matematiche intorno a due nuove scienze",
+    "description": "Galileo Galilei's mathematical treatise on motion and mechanics, leading to the foundations of modern physics.",
+    "publisher": "Codice",
+    "subject": "Math, Physics, Science",
+    "author": "Galileo Galilei, Alessandro De Angelis",
+    "ISBN": "978-8875789305",
+    "imagePath": "/book-collection/images/discorsi_e_dimostrazioni_matematiche_intorno_a_due_nuove_scienze.jpeg"
+  },
+  {
+    "id": 101,
+    "name": "General Chemistry",
+    "description": "A classic textbook on fundamental concepts and principles of chemistry, written by a Nobel laureate chemist.",
+    "publisher": "Dover",
+    "subject": "Chemistry",
+    "author": "Linus Carl Pauling",
+    "ISBN": "978-0486656229",
+    "imagePath": "/book-collection/images/general_chemistry.jpeg"
+  },
+  {
+    "id": 102,
+    "name": "Geometry: A Comprehensive Course",
+    "description": "The book provides a complete overview of geometry concepts, including classical and modern topics, with clear explanations and examples.",
+    "publisher": "Dover",
+    "subject": "Math",
+    "author": "Dan Pedoe",
+    "ISBN": "978-0486658124",
+    "imagePath": "/book-collection/images/geometry.jpeg"
+  },
+  {
+    "id": 103,
+    "name": "Le meraviglie del possibile. Antologia della fantascienza",
+    "description": "An anthology of science fiction showcasing the wonders of the possible, curated by Sergio Solmi and Carlo Fruttero.",
+    "publisher": "Einaudi",
+    "subject": "Science fiction",
+    "author": "Sergio Solmi, Carlo Fruttero",
+    "ISBN": "978-8806222635",
+    "imagePath": "/book-collection/images/le_meraviglie_del_possibile.jpeg"
+  },
+  {
+    "id": 104,
+    "name": "Struttura e processi vitali nelle piante",
+    "description": "The book discusses the structure and vital processes of plants, including photosynthesis, growth, and reproduction.",
+    "publisher": "Edises",
+    "subject": "Biology",
+    "author": "Eldra P. Solomon, C. E. Martin, Diana W. Martin, Linda R. Berg",
+    "ISBN": "978-8879599481",
+    "imagePath": "/book-collection/images/struttura_e_processi_vitali_nelle_piante.jpeg"
+  },
+  {
+    "id": 105,
+    "name": "Biologia",
+    "description": "A comprehensive biology textbook covering various topics such as genetics, evolution, and ecology.",
+    "publisher": "Edises",
+    "subject": "Biology",
+    "author": "Eldra P. Solomon, C. E. Martin, Diana W. Martin, Linda R. Berg",
+    "ISBN": "978-8836230242",
+    "imagePath": "/book-collection/images/biology.jpeg"
+  },
+  {
+    "id": 106,
+    "name": "Fiabe",
+    "description": "A collection of traditional European fairy tales with timeless themes, including love, betrayal, and the power of transformation.",
+    "publisher": "Einaudi",
+    "subject": "Fairy tales",
+    "author": "Jacob Grimm, Wilhelm Grimm",
+    "ISBN": "978-8806226329",
+    "imagePath": "/book-collection/images/fiabe.jpeg"
+  },
+  {
+    "id": 107,
+    "name": "Favole",
+    "description": "A collection of short fables with moral lessons attributed to the ancient Greek storyteller, Esopo.",
+    "publisher": "Mondadori",
+    "subject": "Fairy tales",
+    "author": "Esopo",
+    "ISBN": "978-8804671206",
+    "imagePath": "/book-collection/images/favole.jpeg"
+  },
+  {
+    "id": 108,
+    "name": "Tutto l'universo per chi ha poco spazio-tempo",
+    "description": "The book explores the wonders of the universe through the lens of those with limited space and time.",
+    "publisher": "Mondadori",
+    "subject": "Fable",
+    "author": "Sandra Savaglio",
+    "ISBN": "978-8804739548",
+    "imagePath": "/book-collection/images/tutto_universo.jpeg"
+  },
+  {
+    "id": 109,
+    "name": "Tutto l'universo per chi ha poco spazio-tempo",
+    "description": "The book provides a comprehensive history of mathematics, covering key developments and influential figures from ancient times to the modern era.",
+    "publisher": "Mondadori",
+    "subject": "History, Math",
+    "author": "Carl B. Boyer",
+    "ISBN": "978-8804680482",
+    "imagePath": "/book-collection/images/storia_della_matematica.jpeg"
+  },
+  {
+    "id": 110,
+    "name": "Personaggi e scoperte della fisica",
+    "description": "The book covers key figures and breakthroughs in physics from Galileo to the discovery of quarks.",
+    "publisher": "Mondadori",
+    "subject": "History, Physics",
+    "author": "Emilio Segrè",
+    "ISBN": "978-8804700562",
+    "imagePath": "/book-collection/images/personaggi_e_scoperte_della_fisica.jpeg"
+  },
+  {
+    "id": 111,
+    "name": "History of Greek Mathematics. Vol 2",
+    "description": "The book presents a comprehensive history of Greek mathematics, covering notable mathematicians and their contributions, including geometry, number theory, and algebra, up until the end of the Hellenistic period.",
+    "publisher": "Dover",
+    "subject": "Math, Science",
+    "author": "Thomas L. Heath",
+    "ISBN": "978-0486240749",
+    "imagePath": "/book-collection/images/history_of_greek_mathematics_2.jpeg"
+  },
+  {
+    "id": 112,
+    "name": "Ubik",
+    "description": "A science fiction novel about a group of people experiencing strange and unpredictable phenomena.",
+    "publisher": "Mondadori",
+    "subject": "Science fiction",
+    "author": "Philip K. Dick",
+    "ISBN": "978-8804731481",
+    "imagePath": "/book-collection/images/ubik.jpeg"
+  },
+  {
+    "id": 113,
+    "name": "Fisica - Elettromagnetismo e onde",
+    "description": "This introductory physics textbook covers electromagnetism and waves, including electric and magnetic fields, circuits, and sound and light waves.",
+    "publisher": "Edises",
+    "subject": "Physics",
+    "author": "P. Mazzoldi, M. Nigro, C. Voci",
+    "ISBN": "978-8836230303",
+    "imagePath": "/book-collection/images/fisica_elettromagnetismo_e_onde.jpeg"
+  },
+  {
+    "id": 114,
+    "name": "Fisica - Meccanica e Termodinamica",
+    "description": "The book covers mechanics and thermodynamics topics, including kinematics, Newton's laws, work and energy, oscillations, waves, and thermodynamic principles.",
+    "publisher": "Edises",
+    "subject": "Physics",
+    "author": "P. Mazzoldi, M. Nigro, C. Voci",
+    "ISBN": "978-8804731481",
+    "imagePath": "/book-collection/images/fisica_meccanica_e_termodinamica.jpeg"
   }
 ]
