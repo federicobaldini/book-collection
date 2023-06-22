@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref, watch } from "vue";
+import { ref, watch } from "vue";
 import type { Ref } from "vue";
 import BooksItem from "./BooksItem.vue";
 
@@ -36,6 +36,17 @@ const checkFilter = (book: Book): boolean => {
   return found;
 };
 
+const doesNotContainWords = (
+  inputString: string,
+  wordList: Array<string>
+): boolean => {
+  // Constructing the regular expression pattern
+  const pattern = new RegExp(wordList.join("|"), "i");
+
+  // Checking if the inputString does not match the pattern
+  return !pattern.test(inputString);
+};
+
 watch([(): string => props.filterText], ([newFilterText]): void => {
   filters.value = newFilterText.toLowerCase().split(";");
   if (newFilterText !== "") {
@@ -54,12 +65,23 @@ watch([(): Array<Book> => props.books], ([newBooks]): void => {
 
 <template>
   <ul class="books-list">
-    <BooksItem
-      v-for="book in filteredBooks"
-      :key="book.id"
-      v-bind="book"
-      :texts-to-highlight="filters"
-    />
+    <template v-for="book in filteredBooks" :key="book.id">
+      <BooksItem
+        v-if="
+          !doesNotContainWords(book.subject, [
+            'Mathematics',
+            'Physics',
+            'Science',
+            'Biology',
+            'Microelectronics',
+            'Astrophysics',
+            'Chemistry',
+          ])
+        "
+        v-bind="book"
+        :texts-to-highlight="filters"
+      />
+    </template>
   </ul>
 </template>
 
