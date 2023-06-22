@@ -4,7 +4,7 @@
     "name": "The Thirteen Books of the Elements: 1",
     "description": "A mathematical treatise on Euclidean geometry and number theory, covering definitions, postulates, common notions, and proofs of propositions.",
     "publisher": "Dover",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "Euclid",
     "ISBN": "978-0486600888",
     "imagePath": "/book-collection/images/euclid_dover_vol_1.jpeg"
@@ -14,7 +14,7 @@
     "name": "The Thirteen Books of the Elements: 2",
     "description": "A mathematical treatise on Euclidean geometry and number theory, covering definitions, postulates, common notions, and proofs of propositions.",
     "publisher": "Dover",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "Euclid",
     "ISBN": "978-0486600895",
     "imagePath": "/book-collection/images/euclid_dover_vol_2.jpeg"
@@ -24,7 +24,7 @@
     "name": "The Thirteen Books of the Elements: 3",
     "description": "A mathematical treatise on Euclidean geometry and number theory, covering definitions, postulates, common notions, and proofs of propositions.",
     "publisher": "Dover",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "Euclid",
     "ISBN": "978-0486600901",
     "imagePath": "/book-collection/images/euclid_dover_vol_3.jpeg"
@@ -34,7 +34,7 @@
     "name": "Algoritmi, monaci e mercanti",
     "description": "Examines the use of calculation in daily life during the Middle Ages, including the role of monasteries and merchants in developing algorithms and mathematical practices.",
     "publisher": "Codice",
-    "subject": "History, Math",
+    "subject": "History, Mathematics",
     "author": "Giorgio Ausiello",
     "ISBN": "979-1254500330",
     "imagePath": "/book-collection/images/algoritmi_monaci_mercanti.jpeg"
@@ -73,8 +73,8 @@
     "id": 8,
     "name": "Tutta la matematica",
     "description": "A comprehensive guide to understanding mathematical concepts and learning fundamentals from sets to differential equations. Suitable for students and those wanting to refresh their knowledge.",
-    "publisher": "Vallardi A",
-    "subject": "Math",
+    "publisher": "Vallardi",
+    "subject": "Mathematics",
     "author": "Massimo Scorletti, Mario Italo Trioni",
     "ISBN": "978-8855052689",
     "imagePath": "/book-collection/images/tutta_la_matematica.jpeg"
@@ -83,7 +83,7 @@
     "id": 9,
     "name": "Tutta la fisica",
     "description": "This book provides a comprehensive overview of physics, covering classic mechanics, electromagnetism, thermodynamics, quantum mechanics, and more. It explains key concepts and fundamental principles in an easy-to-understand manner.",
-    "publisher": "Vallardi A",
+    "publisher": "Vallardi",
     "subject": "Physics",
     "author": "Massimo Scorletti",
     "ISBN": "978-8855052696",
@@ -91,10 +91,10 @@
   },
   {
     "id": 10,
-    "name": "Simply Maths",
+    "name": "Simply Mathematicss",
     "description": "An easy-to-understand guide for anyone who wants to improve their math skills, covering basic concepts and advanced techniques.",
     "publisher": "DK",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "DK",
     "ISBN": "978-0241515686",
     "imagePath": "/book-collection/images/simply_math.jpeg"
@@ -134,7 +134,7 @@
     "name": "Real Analysis",
     "description": "Provides comprehensive coverage of real analysis, including topology, metric spaces, and integration. Suitable for advanced undergraduates and graduate students.",
     "publisher": "Independently published",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "Jay Cummings",
     "ISBN": "978-1077254541",
     "imagePath": "/book-collection/images/real_analysis.jpeg"
@@ -144,7 +144,7 @@
     "name": "Proofs",
     "description": "A comprehensive textbook that covers a wide range of mathematical proofs, including number theory, algebra, geometry, and more. Provides clear explanations and examples to help students understand and apply concepts.",
     "publisher": "Independently published",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "Jay Cummings",
     "ISBN": "979-8595265973",
     "imagePath": "/book-collection/images/proofs.jpeg"
@@ -174,7 +174,7 @@
     "name": "The Principia",
     "description": "Isaac Newton's classic work on physics and mathematics, detailing laws of motion and universal gravitation.",
     "publisher": "Univ of California Pr",
-    "subject": "Math, Physics",
+    "subject": "Mathematics, Physics",
     "author": "Isaac Newton",
     "ISBN": "978-0520290747",
     "imagePath": "/book-collection/images/the_principia.jpeg"
@@ -201,10 +201,10 @@
   },
   {
     "id": 21,
-    "name": "Mathematics",
+    "name": "Mathematicsematics",
     "description": "A comprehensive guide to the foundations and applications of mathematics, covering content, methods and meaning with three volumes bound as one.",
     "publisher": "Dover",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "A. D. Aleksandrov, A. N. Kolmogorov, M. A. Lavrent'ev",
     "ISBN": "978-0486409160",
     "imagePath": "/book-collection/images/mathematics.jpeg"
@@ -234,7 +234,7 @@
     "name": "Calculus",
     "description": "A calculus textbook that emphasizes intuition and physical understanding, using real-world examples to explain concepts and problem-solving strategies.",
     "publisher": "Dover",
-    "subject": "Math, Physics",
+    "subject": "Mathematics, Physics",
     "author": "Morris Kline",
     "ISBN": "978-0486404530",
     "imagePath": "/book-collection/images/calculus.jpeg"
@@ -244,7 +244,7 @@
     "name": "Essential Calculus",
     "description": "Provides a thorough introduction to calculus, including applications in real-world situations. Clear explanations and examples make complex concepts easy to understand.",
     "publisher": "Dover",
-    "subject": "Math, Science",
+    "subject": "Mathematics, Science",
     "author": "Richard A. Silverman",
     "ISBN": "978-0486660974",
     "imagePath": "/book-collection/images/essential_calculus.jpeg"
@@ -254,7 +254,7 @@
     "name": "Number Theory",
     "description": "Provides a comprehensive introduction to number theory, covering topics such as prime numbers, Diophantine equations, and elliptic curves.",
     "publisher": "Dover",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "George E. Andrews",
     "ISBN": "978-0486682525",
     "imagePath": "/book-collection/images/number_theory.jpeg"
@@ -264,7 +264,7 @@
     "name": "Linear Algebra",
     "description": "Introduces basic concepts of linear algebra, including vector spaces, linear transformations, eigenvalues, and diagonalization. Discusses applications in mathematics and physics.",
     "publisher": "Dover",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "Georgi E. Shilov",
     "ISBN": "978-0486635187",
     "imagePath": "/book-collection/images/linear_algebra.jpeg"
@@ -491,13 +491,13 @@
   },
   {
     "id": 50,
-    "name": "History of Greek Mathematics: 1",
+    "name": "History of Greek Mathematicsematics. Vol 1",
     "description": "This book covers the development of mathematics in ancient Greece, including the contributions of notable figures such as Pythagoras, Euclid, and Archimedes. It also explores the lasting impact of Greek mathematics on modern science and culture.",
     "publisher": "Dover",
-    "subject": "Math, Science",
+    "subject": "Mathematics, Science",
     "author": "Thomas L. Heath",
     "ISBN": "978-0486240732",
-    "imagePath": "/book-collection/images/history_of_greek_mathematics_1.jpeg"
+    "imagePath": "/book-collection/images/history_of_greek_mathematics.jpeg"
   },
   {
     "id": 51,
@@ -704,7 +704,7 @@
     "name": "Calcolo",
     "description": "This book covers the basic concepts of calculus for functions of one variable, including limits, derivatives, and integrals. It also includes numerous examples and exercises for practice and understanding.",
     "publisher": "Apogeo",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "James Stewart",
     "ISBN": "978-8838785849",
     "imagePath": "/book-collection/images/calcolo.jpeg"
@@ -744,7 +744,7 @@
     "name": "Probabilità e statistica",
     "description": "An introduction to probability and statistics, covering concepts such as random variables, probability distributions, estimation, hypothesis testing, and regression analysis.",
     "publisher": "Apogeo",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "Sheldon M. Ross",
     "ISBN": "978-8891609946",
     "imagePath": "/book-collection/images/probabilita_e_statistica.jpeg"
@@ -764,7 +764,7 @@
     "name": "Esercizi di analisi matematica",
     "description": "This book offers a comprehensive collection of exercises and solutions for students studying mathematical analysis.",
     "publisher": "Esculapio",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "Simonetta Abenda",
     "ISBN": "978-8874884575",
     "imagePath": "/book-collection/images/esercizi_di_analisi_matematica.jpeg"
@@ -774,7 +774,7 @@
     "name": "Analisi matematica",
     "description": "A comprehensive guide to mathematical analysis, covering concepts such as limits, derivatives, integrals, and infinite series.",
     "publisher": "Esculapio",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "Simonetta Abenda",
     "ISBN": "978-8874882816",
     "imagePath": "/book-collection/images/analisi_matematica.jpeg"
@@ -784,7 +784,7 @@
     "name": "Algebra lineare e geometria analitica",
     "description": "This book provides a comprehensive introduction to linear algebra and analytic geometry, covering topics such as vectors, matrices, linear transformations and geometric concepts.",
     "publisher": "CittàStudi",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "Alessandra Bernardi, Alessandro Gimigliano",
     "ISBN": "978-8825173987",
     "imagePath": "/book-collection/images/algebra_lineare.jpeg"
@@ -824,7 +824,7 @@
     "name": "Storia del pensiero matematico: 1",
     "description": "This book traces the history of mathematical thought from ancient times to the 18th century, covering key figures and concepts that shaped the field.",
     "publisher": "Einaudi",
-    "subject": "History, Math",
+    "subject": "History, Mathematics",
     "author": "Morris Kline",
     "ISBN": "978-8806154172",
     "imagePath": "/book-collection/images/storia_pensiero_matematico_1.jpeg"
@@ -834,7 +834,7 @@
     "name": "Storia del pensiero matematico: 2",
     "description": "A history of mathematical thought from the 18th century to present day, exploring the evolution of mathematical ideas and their impact on society and science.",
     "publisher": "Einaudi",
-    "subject": "History, Math",
+    "subject": "History, Mathematics",
     "author": "Morris Kline",
     "ISBN": "978-8806154189",
     "imagePath": "/book-collection/images/storia_pensiero_matematico_2.jpeg"
@@ -844,7 +844,7 @@
     "name": "Gli oggetti frattali",
     "description": "The book explores the concept of fractals and their applications in various fields such as mathematics, physics, and art.",
     "publisher": "Einaudi",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "Benoît B. Mandelbrot",
     "ISBN": "978-8806155667",
     "imagePath": "/book-collection/images/oggetti_frattali.jpeg"
@@ -951,23 +951,23 @@
   },
   {
     "id": 96,
-    "name": "Atomi nuclei particelle",
+    "name": "Sette brevi lezioni di fisica",
     "description": "This book is a collection of Enrico Fermi's writings from 1923 to 1952 on atomic nuclei and particles.",
     "publisher": "Bollati Boringhieri",
     "subject": "Physics",
     "author": "Enrico Fermi",
     "ISBN": "978-8833920108",
-    "imagePath": "/book-collection/images/atomi_nuclei_particelle.jpeg"
+    "imagePath": "/book-collection/images/sette_brevi_lezioni_di_fisica.jpeg"
   },
   {
     "id": 97,
-    "name": "Sette brevi lezioni di fisica",
+    "name": "Atomi nuclei particelle",
     "description": "Seven brief lessons on physics covers fundamental concepts in a clear and concise manner, making it accessible for non-experts.",
     "publisher": "Adelphi",
     "subject": "Physics",
     "author": "Carlo Rovelli",
     "ISBN": "978-8845929250",
-    "imagePath": "/book-collection/images/sette_brevi_lezioni_di_fisica.jpeg"
+    "imagePath": "/book-collection/images/atomi_nuclei_particelle.jpeg"
   },
   {
     "id": 98,
@@ -984,7 +984,7 @@
     "name": "Introductory Complex Analysis",
     "description": "The book provides an introduction to complex analysis, covering basic principles, functions, and applications in concise language.",
     "publisher": "Dover",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "Richard A. Silverman",
     "ISBN": "978-0486646862",
     "imagePath": "/book-collection/images/introductory_complex_analysis.jpeg"
@@ -994,7 +994,7 @@
     "name": "Discorsi e dimostrazioni matematiche intorno a due nuove scienze",
     "description": "Galileo Galilei's mathematical treatise on motion and mechanics, leading to the foundations of modern physics.",
     "publisher": "Codice",
-    "subject": "Math, Physics, Science",
+    "subject": "Mathematics, Physics, Science",
     "author": "Galileo Galilei, Alessandro De Angelis",
     "ISBN": "978-8875789305",
     "imagePath": "/book-collection/images/discorsi_e_dimostrazioni_matematiche_intorno_a_due_nuove_scienze.jpeg"
@@ -1014,7 +1014,7 @@
     "name": "Geometry: A Comprehensive Course",
     "description": "The book provides a complete overview of geometry concepts, including classical and modern topics, with clear explanations and examples.",
     "publisher": "Dover",
-    "subject": "Math",
+    "subject": "Mathematics",
     "author": "Dan Pedoe",
     "ISBN": "978-0486658124",
     "imagePath": "/book-collection/images/geometry.jpeg"
@@ -1077,14 +1077,14 @@
     "subject": "Astrophysics",
     "author": "Sandra Savaglio",
     "ISBN": "978-8804739548",
-    "imagePath": "/book-collection/images/tutto_universo_per_chi_ha_poco_spazio_tempo.jpeg"
+    "imagePath": "/book-collection/images/tutto_universo.jpeg"
   },
   {
     "id": 109,
     "name": "Storia della matematica",
     "description": "The book provides a comprehensive history of mathematics, covering key developments and influential figures from ancient times to the modern era.",
     "publisher": "Mondadori",
-    "subject": "History, Math",
+    "subject": "History, Mathematics",
     "author": "Carl B. Boyer",
     "ISBN": "978-8804680482",
     "imagePath": "/book-collection/images/storia_della_matematica.jpeg"
@@ -1101,10 +1101,10 @@
   },
   {
     "id": 111,
-    "name": "History of Greek Mathematics: 2",
+    "name": "History of Greek Mathematicsematics. Vol 2",
     "description": "The book presents a comprehensive history of Greek mathematics, covering notable mathematicians and their contributions, including geometry, number theory, and algebra, up until the end of the Hellenistic period.",
     "publisher": "Dover",
-    "subject": "Math, Science",
+    "subject": "Mathematics, Science",
     "author": "Thomas L. Heath",
     "ISBN": "978-0486240749",
     "imagePath": "/book-collection/images/history_of_greek_mathematics_2.jpeg"
@@ -1138,5 +1138,95 @@
     "author": "P. Mazzoldi, M. Nigro, C. Voci",
     "ISBN": "978-8804731481",
     "imagePath": "/book-collection/images/fisica_meccanica_e_termodinamica.jpeg"
+  },
+  {
+    "id": 115,
+    "name": "Il pianeta del silenzio",
+    "description": "In a distant future, a team explores a mysterious planet where silence reigns supreme, revealing enigmatic artifacts and a profound sense of isolation.",
+    "publisher": "Mondadori",
+    "subject": "Science fiction",
+    "author": "Stanislaw Lem",
+    "ISBN": "978-8804745808",
+    "imagePath": "/book-collection/images/il_pianeta_del_silenzio.jpeg"
+  },
+  {
+    "id": 116,
+    "name": "Il grande disegno",
+    "description": "Stephen Hawking's book delves into the mysteries of the universe, exploring topics such as black holes, time travel, and the origins of the cosmos.",
+    "publisher": "Mondadori",
+    "subject": "Astrophysics",
+    "author": "Stephen Hawking, Leonard Mlodinow",
+    "ISBN": "978-8804671916",
+    "imagePath": "/book-collection/images/il_grande_disegno.jpeg"
+  },
+  {
+    "id": 117,
+    "name": "Astrofisica per curiosi",
+    "description": "An engaging exploration of astrophysics, revealing captivating wonders of the universe, from black holes to cosmic rays.",
+    "publisher": "Hoepli",
+    "subject": "Astrophysics",
+    "author": "Gabriele Ghisellini",
+    "ISBN": "978-8820389420",
+    "imagePath": "/book-collection/images/astrofisica_per_curiosi.jpeg"
+  },
+  {
+    "id": 118,
+    "name": "Piccoli geni",
+    "description": "The book explores the world of microorganisms, unveiling their significance and impact. It delves into their hidden abilities and their intricate role in various aspects of life, shedding light on the microscopic wonders that surround us.",
+    "publisher": "Hoepli",
+    "subject": "Biology",
+    "author": "Stefano Bertacchi",
+    "ISBN": "978-8820399962",
+    "imagePath": "/book-collection/images/piccoli_geni.jpeg"
+  },
+  {
+    "id": 119,
+    "name": "Bestiario matematico",
+    "description": "An intriguing mathematical exploration, uncovering the hidden connections between numbers, shapes, and patterns, while engaging readers with playful and insightful anecdotes.",
+    "publisher": "Hoepli",
+    "subject": "Mathematics",
+    "author": "Paolo Alessandrini",
+    "ISBN": "978-8836005284",
+    "imagePath": "/book-collection/images/bestiario_matematico.jpeg"
+  },
+  {
+    "id": 120,
+    "name": "Chimica",
+    "description": "The book provides a concise introduction to the fundamental concepts of chemistry, covering topics such as atomic structure, chemical bonding, and reactions, in a clear and accessible manner.",
+    "publisher": "Edises",
+    "subject": "Chemistry",
+    "author": "John C. Kotz, Paul M. Treichel, John R. Townsend, David A. Treichel",
+    "ISBN": "978-8836230518",
+    "imagePath": "/book-collection/images/chimica.jpeg"
+  },
+  {
+    "id": 121,
+    "name": "Universi",
+    "description": "In a vast exploration of parallel worlds, Stanislaw Lem delves into the depths of existence, questioning reality, perception, and the very nature of the universe itself.",
+    "publisher": "Mondadori",
+    "subject": "Science fiction",
+    "author": "Stanislaw Lem",
+    "ISBN": "978-8804730569",
+    "imagePath": "/book-collection/images/universi.jpeg"
+  },
+  {
+    "id": 122,
+    "name": "Introduzione alla meccanica quantistica",
+    "description": "The book provides an introductory exploration of quantum mechanics, covering fundamental concepts and principles within a concise framework.",
+    "publisher": "Casa Editrice Ambrosiana",
+    "subject": "Physics",
+    "author": "David J. Griffiths",
+    "ISBN": "978-8808087478",
+    "imagePath": "/book-collection/images/introduzione_alla_meccanica_quantistica.jpeg"
+  },
+  {
+    "id": 123,
+    "name": "Solaris",
+    "description": "A psychologist arrives on a space station orbiting a mysterious planet called Solaris. As he studies the planet's ocean, it manifests the memories and fears of the station's crew, blurring the line between reality and imagination.",
+    "publisher": "Sellerio Editore Palermo",
+    "subject": "Science fiction",
+    "author": "Stanislaw Lem",
+    "ISBN": "978-8838929106",
+    "imagePath": "/book-collection/images/solaris.jpeg"
   }
 ]
